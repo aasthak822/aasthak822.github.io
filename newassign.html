@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Application</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+<body onload="myOnFunction();">
+
+    <h1 style="text-align:center;">Assignment 2</h1>
+
+    <h2 class="home">Aastha Kumari</h1>
+
+    <p style="font-style: italic;background-color: aqua;text-align:center;">Integral University</p>
+
+    <p class="home">This is regarding 2nd Assignment.</p>
+
+    <p style="font-weight: bold;background-color: beige; text-align:center;">HTML, CSS and JavaScript</p>
+
+    <p class="home">Subject: Web Designing Concepts .</p>
+
+    <p style="text-decoration: underline;background-color: chartreuse; text-align:center;">Simple Forms</p>
+
+    <form method="" action="" name="reg_form" onsubmit="return validate()" onload="setbackground();">    
+        <h2>Registration Form</h2>    
+        <table>    
+            <tr>    
+                <td><label>First Name: </label></td>    
+                <td>    
+                    <input type="text" name="fname" placeholder="First Name">    
+                </td>    
+            </tr>    
+            <tr>    
+                <td><label>Last Name: </label></td>    
+                <td>    
+                    <input type="text" name="lname" placeholder="Last Name">    
+                </td>    
+            </tr>    
+            <tr>    
+                <td><label>Address: </label></td>    
+                <td>    
+                    <input type="textarea" size="50" name="address" placeholder="Address">    
+                </td>    
+            </tr>    
+            <tr>    
+                <td><label>Gender: </label></td>    
+                <td>    
+                    <input type="radio" name="gender" value="male">Male    
+                    <input type="radio" name="gender" value="femele">Female    
+                </td>    
+            </tr>    
+            <tr>    
+                <td><label>Email Id: </label></td>    
+                <td>    
+                    <input type="text" name="email" placeholder="example@gmail.com">    
+                </td>    
+            </tr>    
+            <tr>    
+                <td><label>Mobile: </label></td>    
+                <td>    
+                    <input type="number" name="mobile">    
+                </td>    
+            </tr> 
+            <tr>    
+                <td><label>Favourite Subject: </label></td>    
+                <td>    
+                    <input type="text" name="fsb" placeholder="Subject Name">    
+                </td>    
+            </tr> 
+            <tr>
+                <td>
+                    <label>Hobbies</label>
+                </td>
+                <td>
+                    <label>
+                        <input type="checkbox" checked> Cricket
+                    </label>
+                    <label>
+                        <input type="checkbox"> Football
+                    </label>
+                </td>
+            </tr>
+            <tr>    
+                <td><label>Favourite Movie: </label></td>    
+                <td>    
+                    <input type="text" name="fmn" placeholder="Movie Name">    
+                </td>    
+            </tr> 
+            <tr>    
+                <td><label>Favourite Singer: </label></td>    
+                <td>    
+                    <input type="text" name="fsg" placeholder="Singer Name">    
+                </td>    
+            </tr>    
+            <tr>    
+            <td><label>Course: </label></td>    
+                <td>    
+                    <select name="course">    
+                        <option value="select course">select course</option>    
+                        <option value="HTML">HTML</option>    
+                        <option value="CSS">CSS</option>    
+                        <option value="JavaScript">JAVASCRIPT</option>    
+                        <option value="Java">JAVA</option>    
+                    </select>    
+                </td>    
+            </tr> 
+            <tr>
+                <td>
+                        <label for="pass">Password</label>
+                </td>
+                <td>
+                        <input type="password" id="pass">
+                </td>
+            </tr>   
+            <tr>    
+                <td>    
+                    <input type="submit" name="submit" value="Submit" onClick="myFunction()">    
+                    <input type="reset" name="reset" value="Reset">    
+                </td>    
+            </tr>             
+        </table>    
+    </form>  
+
+    
+</body>
+
+</html>
