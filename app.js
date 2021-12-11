@@ -132,5 +132,5 @@ function underlineText(){
 }
 
 function myFunction() {
-    window.location.href="index.html";  
+    window.location.href="aasthamain.html";  
   }
